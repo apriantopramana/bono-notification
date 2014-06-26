@@ -1,0 +1,20 @@
+{
+    "name": "apriantopramana/notifications",
+    "description": "Notification for Bono",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Apriyanto Pramana Putra",
+            "email": "apriantopramanaputra@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Notification": "src/"
+        }
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "@stable",
+        "monolog/monolog": "@stable"
+    }
+}
